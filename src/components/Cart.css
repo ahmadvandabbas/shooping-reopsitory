@@ -1,0 +1,129 @@
+.cart-items{
+    margin: 30px auto;
+    width: 70%;
+    background-color: rgb(20, 77, 72);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.cart-items-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-bottom: 2px solid black;
+}
+.cart-items-empty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: antiquewhite;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cart-items-image{
+    width: 100px;
+    height: auto;
+    border: 2px solid black;
+    margin-right: 10px;
+}
+.cart-items-list{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight:bold ;
+    margin-left: 5%;
+    color: white;
+
+}
+.cart-items-name,
+.cart-items-function{
+    width: 25%;
+}
+.cart-items-add,
+.cart-items-remove{
+    width: 30px;
+    margin-right: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    color: aliceblue;
+    cursor: pointer;
+}
+.cart-items-add{
+    background-color: green;
+}
+.cart-items-remove{
+    background-color: red;
+}
+.cart-items-add:active{
+    transform: translateY(1.2px);
+
+}
+.cart-items-remove:active{
+    transform: translateY(1.2px);
+}
+.cart-items-total-price-name{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 22%;
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    border-top: 2px solid black;
+}
+.cart-items-total-price{
+    display: flex;
+    padding-left: 45%;
+
+}
+
+.cart-clear-button{
+    border: none;;
+    border-radius: 4px;
+    height: 30px;
+    background-color: red;
+    font-size: 18px;
+    width: 150px;
+    color: aliceblue;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.cart-clear-button:hover{
+    background-color: rgb(136, 17, 17);
+    width: 160px;
+}
+.cart-clear{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+
+}
+.cart-length{
+    margin-left: 2px;
+    font-size: 17px;
+    font-weight: bold;
+    vertical-align: super;
+    color: red;
+}
+.cart{
+    padding-right: 30px;
+    margin-right: 20px;
+}
+@media screen and (max-width:991px){
+    .cart-items{
+        width: 90%;
+    }
+    
+}
